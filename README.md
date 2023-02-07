@@ -4,7 +4,7 @@ Hosting link: [TODO](https://todo.link).
 
 ## Description
 
-Free text food search driven by the API(https://www.themealdb.com/)[https://www.themealdb.com/].
+Free text food search driven by the API [https://www.themealdb.com/](https://www.themealdb.com/).
 
 ## User stories
 
