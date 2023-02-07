@@ -1,6 +1,6 @@
 # Food search API
 
-Hosting link: [TODO](https://todo.link).
+Hosting link: [(https://cfmiller176.github.io/recipe-lookup-javascript/)](https://cfmiller176.github.io/recipe-lookup-javascript/).
 
 ## Description
 
@@ -21,3 +21,7 @@ AS A person responsible for a household
 I WANT TO look up ingredients of recipes
 SO THAT I can estimate costs of my next purchases
 ```
+
+## Reference - used rescources
+
+-Button 12 from [https://getcssscan.com/css-buttons-examples](https://getcssscan.com/css-buttons-examples)

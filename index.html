@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Recipe Lookup</h1>
+    <h1 class="main-title">Recipe Lookup</h1>
+    <form action="" method="get" class="food-form">
+    <label class="input-label">
+        Food:
+        <input type="text" class="text-input" name="food-search-input">
+    </label>
+    <button type="submit" class="search-button button-12" role="button">Search</button>
+    </form>
+    <div class="js-food-container"></div>
     <script src="food-lookup.js"></script>
+    
 </body>
 </html>
