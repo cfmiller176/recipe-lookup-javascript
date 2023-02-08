@@ -1,4 +1,5 @@
 const form = document.querySelector('.js-food-form');
+const inputField = document.querySelector('.js-food-input');
 const foodContainer= document.querySelector('.js-food-container');
 
 
@@ -8,7 +9,10 @@ console.log('JavaScript is running');
 
 function callback(event) {
     event.preventDefault();
-    alert('form got submitted');
+    const searchExpression = encodeURIComponent(inputField.value).replace('%20',' ');
+        inputField.value;
+    foodContainer.innerHTML =  `Form got submitted with content ${searchExpression}`
+    inputField.value = '';
 }
 
 form.addEventListener('submit', callback);
