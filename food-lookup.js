@@ -15,7 +15,7 @@ function getSourceMarkup(meal) {
     else {
         return  `
                 <p>
-                    <a href="${source}" target="_blank">Source</a>
+                    <a href="${source}" target="_blank">Get recipe</a>
                 </p >
              `;
 
