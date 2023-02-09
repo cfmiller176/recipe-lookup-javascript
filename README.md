@@ -4,7 +4,7 @@ Hosting link: [(https://cfmiller176.github.io/recipe-lookup-javascript/)](https:
 
 ## Description
 
-Free text food search driven by the API [https://www.themealdb.com/](https://www.themealdb.com/).
+Free text food search driven by the API [https://www.themealdb.com/api/json/v1/1/search.php?s=Pie](https://www.themealdb.com/api/json/v1/1/search.php?s=Pie).
 
 ## User stories
 
