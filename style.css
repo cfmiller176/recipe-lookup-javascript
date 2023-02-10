@@ -88,7 +88,7 @@ body {
     justify-content: center;  
 }
 .meal-container {
-    border: 5px inset lightcoral;;
+    border: 5px inset rgb(182, 42, 42);;
     display: flex;
     flex-direction: column;
     align-items: center;  
@@ -109,11 +109,76 @@ body {
 
 .image-container {
    background-color:black;
-   object-fit: cover;
    align-items: center;
+   padding: 20px;
    display: flex;
    justify-content: center;
    height: 400px;
-   overflow: hidden;  
+   overflow: hidden; 
+   
 }
 
+@media screen and (max-width: 500px) {
+    .image-container {
+        display: none;
+        
+    }
+}
+  
+ @media screen and (max-width: 500px) {
+     .meal-list-container {
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        text-transform:uppercase;
+        
+        
+    
+     }
+ }
+@media screen and (max-width: 500px) {
+      .meal-container {
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+      }
+  }
+
+@media screen and (max-width: 600px) {
+       .meal-container {
+           display: flex;
+           flex-direction: column;
+           overflow: hidden;
+           font-size: .8em;
+           
+       }
+   }
+@media screen and (max-width: 700px) {
+        .food-form {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap:wrap;
+            margin :3px;
+    
+    
+            }
+        }
+@media screen and (max-width: 700px) {
+    .input-label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 3px;
+        font-size: 1em;
+
+
+    }
+}

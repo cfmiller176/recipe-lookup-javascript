@@ -24,6 +24,8 @@ SO THAT I can estimate costs of my next purchases
 
 ## Reference - used rescources
 
+-Baking image from [https://www.canva.com/](https://www.canva.com/)
+
 -Button 12 from [https://getcssscan.com/css-buttons-examples](https://getcssscan.com/css-buttons-examples)
 
 -We consider the API response of [https://www.themealdb.com/] to be safe in a sense that we rely on displaying its content using innerHTML. Reasonable XSS (cross-site-scripting) protection was still added to the code.

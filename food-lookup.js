@@ -7,6 +7,7 @@ const foodContainer= document.querySelector('.js-meal-list-container');
 
 console.log('JavaScript is running');
 
+
 function getSourceMarkup(meal) {
     let source = meal.strSource;
     if (source === null || source === '') {
@@ -22,6 +23,7 @@ function getSourceMarkup(meal) {
     }
 
 }
+
 function getTagsMarkup(meal) {
     let tags = meal.strTags?.replaceAll(',', ', ');
     if (typeof tags === 'undefined') {
@@ -60,6 +62,8 @@ function getRecipe(recipe) {
         .then(renderRecipe);
 
 }
+
+
 
 function callback(event) {
     event.preventDefault();
