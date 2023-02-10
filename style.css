@@ -14,10 +14,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   a, a:visited {
-    color: lightskyblue;
+    background-color: lightskyblue;
   }
-  a:hover {
-    color:lightgreen;
+  button:hover {
+    background-color: rgb(130, 30, 30);
   }
   a:active {
     color: lightgoldenrodyellow;
@@ -29,7 +29,9 @@ body {
     margin: 1rem;
     letter-spacing: 2px;
 }
-
+.hidden-image {
+ display: none;
+}
 
 /* ****form styles **** */
 .food-form {
@@ -120,10 +122,23 @@ body {
 
 @media screen and (max-width: 500px) {
     .image-container {
-        display: none;
+        height: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;        
+        
         
     }
 }
+#footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 100px;
+}
+
   
  @media screen and (max-width: 500px) {
      .meal-list-container {
@@ -179,6 +194,22 @@ body {
         margin: 3px;
         font-size: 1em;
 
+
+    }
+}
+@media screen and (max-width: 500px) {
+    .hidden-image {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+}
+@media screen and (max-width: 500px) {
+    .image-container {
+        display: none;
+        margin: 8px;
+        padding: 10px;
 
     }
 }
