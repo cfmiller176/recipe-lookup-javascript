@@ -139,13 +139,16 @@ a {
     }
 }
 #footer {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px;
-    padding: 100px;
+    justify-content: left;
+    align-items: left;
+    margin-top:75px;
+    padding: 75px;
+    height: 50px;
 }
-
+.foot-div {
+    height: 100px;
+    
+}
   
  @media screen and (max-width: 500px) {
      .meal-list-container {
@@ -158,7 +161,7 @@ a {
         overflow: hidden;
         text-transform:uppercase;
         
-        
+        /* **** Responsive design******* */
     
      }
  }
