@@ -4,7 +4,7 @@ html {
 }
 
 *,*::after,*::before {
-    box-sizing: inherit;
+
 }
 
 body {
@@ -23,7 +23,11 @@ body {
     color: lightgoldenrodyellow;
   }
   
-
+h2 {
+    text-align:center;
+    justify-content: center;
+    display: flex;
+}
 .main-title {
     text-align:center;
     margin: 1rem;
@@ -197,19 +201,21 @@ body {
 
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .hidden-image {
         display:flex;
         justify-content: center;
         align-items: center;
+        
        
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .image-container {
         display: none;
-        margin: 8px;
-        padding: 10px;
+        margin: 5px;
+        padding: 15px;
+        height: 50px;
 
     }
 }
