@@ -5,7 +5,6 @@ const foodContainer= document.querySelector('.js-meal-list-container');
 
 // https://www.themealdb.com/api/json/v1/1/search.php?s=Pie
 
-console.log('JavaScript is running');
 
 
 function getSourceMarkup(meal) {
